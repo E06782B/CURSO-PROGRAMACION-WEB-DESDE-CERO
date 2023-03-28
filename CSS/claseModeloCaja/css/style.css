@@ -1,0 +1,11 @@
+*{
+	box-sizing: border-box; /* LEE LA DIMESIÓN DEL DOCUMENTO Y HACE QUE EL ARCHIVO SE AJUSTE A LA PANTALLA*/
+	padding: 0;
+	margin: 0;
+}
+main{
+	width: 100%; /* ANCHO DE LA PAGINA*/
+	height: 500px; /* ALTO DEL MAIN */
+	border: 10px solid grey;
+	padding: 20px 35px; /* PRIMER DIGITO PARA ARIIBA Y ABAJO, SEGUNDO PARA LOS LADOS */ 
+}
