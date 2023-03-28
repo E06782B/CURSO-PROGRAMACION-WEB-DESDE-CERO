@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CLASE CSS</title>
+	<!-- 
+		- REFERENCIAR  LA CARPETA CSS 
+		- PRIMERA FORMA O FORMA CORRECTA DE USARLA
+	--> 
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+	<!--
+		- SEGUNDA FORMA CREANDO ETIQUETA CSS NETAMENTE PARA LA PAGINA 
+	-->
+	<style type="text/css">
+		p {
+			color: blue;
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+
+	<main>
+		<!--
+			- TERCERA FORMA - ESTILOS A UNA ETIQUETA EN PARTICULAR
+			- ETIQUETAS BASICAS:
+				color: #fff; LE PUEDES ASIGNAR UN COLOR ASIGNADO DENTRO DE LA ETIQUETA
+				font-size: 30px; PERMITE PONER EL TAMAÑO DE LA FUETE DE TEXTO 
+		-->
+		<p class="classParrafo">Mi primer parrafo Clase</p>
+		<p id="idParrafo">Mi primer parrafo Id</p>
+		<p>Mi segundo parrafo.</p>
+		<p style="color: red; font-size: 30px;">Mi tercer parrafo.</p>
+	</main>
+
+</body>
+</html>

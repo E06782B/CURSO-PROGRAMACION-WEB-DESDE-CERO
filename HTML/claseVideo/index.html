@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- IDIOMA POR DEFECTO EN EL QUE VA A ESTAR UNA PAGINA -->
+	<head> <!-- TODO LO QUE NO VE EL USUARIO - RECURSOS DE LA PAGINA -->
+		<meta charset="utf-8"> <!-- PUEDA VER CARACTERES ESPECIALES (Ñ) -->
+		<meta name="description" content="Información basica de la empresa, INSITUTO DE INGLES, CURSOS DE INGLES"> <!-- DESCIPCION DE LA PAGINA, COMO LA GENTE TE VA A ENCONTRAR EN LA WEB -->
+		<meta name="robots" content="index,follow" /> <!-- AUTORIZAR A LOS ROBOT O BOOTS DE GOOGLE QUE PUEDA MOSTRAR NUESTRA PAGINA -->
+		<title>CLASE VIDEO</title> <!-- TITULO DE LA PAGINA A MOSTRAR EN PESTAÑA -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- PARA TOMAR LA MEDIDA DE LA PANTALLA EN LA Q SE VA A ABRIR -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body><!-- TODO LO Q VA A VER EL USUARIO -->
+		<main>
+			<section>
+				<!-- EL VIDEO COMPLETO CON CONTROLADORES Y PRELOAD -->
+				<!--<video src="movie/descarga.mp4" controls preload="auto"></video>--> 
+
+				<!-- SE INICIE A REPRODUCIR EN UN MINUTO ESPECIFICO HASTA UN FIN DETERMINADO -->
+				<!--<video src="movie/descarga.mp4#t=10,20" controls preload="auto"></video>-->
+
+				<!-- PARA QUE LA ETIQUETA ACEPTE VARIOS TIPOS DE FORMATO DE VIDEO -->
+				<video controls preload="auto">
+					<source src="movie/descarga.mp4#t=10,20">
+					<source src="movie/descarga.m4v#t=10,20">
+				</video>
+
+				<!--<video></video>-->
+			</section>		
+		</main>
+	</body>	
+</html>	

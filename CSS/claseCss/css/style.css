@@ -1,0 +1,11 @@
+/* ESTILOS PARA UNA ETIQUETA CON CLASE*/
+.classParrafo{
+	color: green;
+	font-size: 40px;
+}
+
+/* ESTILOS PARA UNA ETIQUETA CON ID*/
+#idParrafo{
+	color: yellow;
+	font-size: 40px;	
+}

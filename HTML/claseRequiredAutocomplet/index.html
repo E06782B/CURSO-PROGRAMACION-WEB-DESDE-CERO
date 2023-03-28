@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AUTOCOMPLETAR Y OBLIGATORIOS</title>
+</head>
+<body>
+	<main>
+		<form action="">
+			<label for="txtNombre">
+				<span>¿Cual es tu nombre?*</span>
+				<input type="text" name="txtNombre" id="txtNombre" required autocomplete="name">
+			</label>
+			<label for="txtEmail">
+				<span>¿Cual es tu email? *</</span>
+				<input type="email" name="txtEmail" id="txtEmail" required autocomplete="email">
+			</label>
+			<label for="txtPais">
+				<span>¿Cual es tu pais? *</</span>
+				<input type="text" name="txtPais" id="txtPais" required autocomplete="country">
+			</label>
+			<label for="txtPais">
+				<span>¿Cual es tu codigo postal? *</</span>
+				<input type="text" name="txtPais" id="txtPais" required autocomplete="postal-code">
+			</label>
+
+			
+			<input type="submit">
+			<p>Los campos con * son abligatorios.</p>
+		</form>
+	</main>
+</body>
+</html>

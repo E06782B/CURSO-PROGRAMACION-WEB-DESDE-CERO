@@ -1,0 +1,41 @@
+.main_nav{
+	margin-top: 20px; /* MARGEN EN LA PARTE SUPERIOR DE LA ETIQUETA SELECCIONADA */
+	list-style: none; /* ELIMINAMOS LOS PUNTOS DE LA LISTA*/
+	padding-left: 0px; /* DIMENSION INTERNA DE LA ETIQUETA - LEFT*/
+	background-color: #13A4A4; /*DAR COLOR DE FONDO */
+}
+
+.main_nav__item{
+	display: inline-block; /* PERMITE PONER EN MANERA ORIZONTAL LA LISTA */
+}
+
+.main_nav__item a{
+	color: white; /*COLOR DE TEXTO */ 
+	padding: 5px; /* ESPACIO TOTAL CON EL BORDER */
+	border-radius: 5px; /* DA FORMA REDONDEADA A LAS ESQUINAS */
+	text-decoration: none; /* QUITA EL SUBRAYADO O DECORACIONES A LA ETIQUETA*/
+	background-color: red; /* DAR COLOR DE FONDO */ 
+}
+
+/* 
+	======================================================================
+	PSEUDO CLASES : Deﬁne el estilo de un estado especial de un elemento.
+  	======================================================================
+*/
+
+.main_nav__item a:hover { /* HOVER: OPCION AL PASAR EL CURSOR GENERA EL EVENTO DE CAMBIO DE COLOR O LA OPCION ASIGNADA */
+	color: blue;
+}
+
+.main_nav__item a:active{ /* ACTIVE: PERMITE PONER LA OPCION SELECCIONADA SI ACTIVAS LA FUNCION O GENERAS EL CLIC */
+	color: brown;
+}
+
+/* 
+	========================================================================
+	PSEUDO ELEMENTOS: Deﬁne el estilo de una parte especíﬁca de un elemento.
+	========================================================================
+*/
+.main_nav__item a::after{
+	content: " | "; /*DESPUES DEL ELEMENTO SELECCIONADO AÑADE EL CARACTER CONTENIDO EN EL CONTENT */
+}
