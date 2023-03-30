@@ -1,0 +1,18 @@
+html{ /*SELECTOR HTML EN GENERAL DE TODA LA PAGINA*/
+	font-size: 75%; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+main{ 
+	font-size: 95%; 
+	font-family: Tahoma, sans-serif; /* FUENTE DE TEXTO DEL DOCUMENTO */
+}
+
+h1{
+	font-size: inherit; /* HEREDA LA CONFIGURACIÓN DE LA ETIQUETA SUPERIOR QUE TENGA UNA CONFIGURACION */
+}
+
+16 px
+12 px
+ 9 px
