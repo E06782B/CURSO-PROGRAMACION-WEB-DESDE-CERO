@@ -5,16 +5,16 @@
 }
 
 main {
-  width: 100vw;
-  height: 100vh;
+  width: 100vw; /* 100% VIEW */
+  height: 100vh; /* 100% VIEW */
   background-color: purple;
 }
 
 section {
   width: 100%;
-  min-width: 320px;
-  max-width: 500px;
+  min-width: 320px; /* TAMAÑO MINIMO DE LADO A LADO */ 
+  max-width: 500px; /* LIMITA CRECIMIENTO A TOPE DE PX */
   height: 850px;
   background-color: red;
-  margin: 0 auto;
+  margin: 0 auto; /* 0: PARTE INFERIOR Y SUPERIOR AUTO: 50% A LA DERECHA Y 50% A LA IZQUIERDA */ 
 }

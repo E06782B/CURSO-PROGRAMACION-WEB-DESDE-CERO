@@ -1,3 +1,26 @@
-div p {
+/* Hermano adyacente o cercano */
+/*h2 + p{ 
+  color: red;
+}*/
+
+
+/* Hermano general */
+/* ASCII + 126 */
+h2 ~ p{
+  color: purple;
+}
+
+/* Hijo */
+div > p {
   color: red;
 }
+
+article > p{
+  color: yellow;
+}
+
+
+/* Descendant */
+/*div h3 {
+  color: blue;
+}*/

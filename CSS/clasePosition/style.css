@@ -1,0 +1,18 @@
+* { /* 1. ELIMINAMOS LA CONFIGURACION INICIAL DEL EXPLORADOR */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  border: 2px black dotted;  /* 2. VER LINEAS PUNTEADAS EN EL BORDE DEL DIV*/
+  display: inline-block; /* 3. REALIZA AL DIV HASTA DONDE LLEGA SU CONTENIDO*/
+}
+.box {
+  display: inline-block; /* 4. REALIZA AL DIV HASTA DONDE LLEGA SU CONTENIDO */
+  background-color: red; /* 5. COLOR DE FONDO AL CONTENEDOR */
+  width: 100px; /* TAMAÑO DEL ANCHO DEL CONTENEDOR */
+  height: 100px; /* TAMAÑO DEL ALTO DEL CONTENEDOR */
+}
+#two {
+  background-color: green;
+}
