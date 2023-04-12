@@ -19,6 +19,7 @@ html {
   min-width: 150px;
   height: 150px;
 }
+/* REMARCAMOS AUTO A C4 PARA Q SE MUESTRE*/
 .c4 {
   height: auto;
 }
@@ -37,6 +38,8 @@ html {
 .c5 {
   background-color: #dfe1e5;
 }
+
+/* PANTALLA MAYOR A 600 PX*/
 @media (min-width: 600px) {
   .c1 {
     width: 25%;
@@ -48,6 +51,8 @@ html {
     width: 100%;
   }
 }
+
+/* PANTALLA MAYOR A 800 PX*/
 @media (min-width: 800px) {
   .container {
     width: 800px;
