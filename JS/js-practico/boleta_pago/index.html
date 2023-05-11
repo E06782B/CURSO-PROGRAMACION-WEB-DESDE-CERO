@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Generar Boleta de Pago</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>Generar Boleta de Pago</h1>
+	<label for="monto">Monto a pagar:</label>
+	<input type="number" id="monto" name="monto" min="0" step="0.01" required>
+	<br><br>
+	<label for="descuento">Descuento (%):</label>
+	<input type="number" id="descuento" name="descuento" min="0" step="0.01" value="0">
+	<br><br>
+	<label for="retencion">Retención (%):</label>
+	<input type="number" id="retencion" name="retencion" min="0" step="0.01" value="0">
+	<br><br>
+	<button onclick="generarBoleta()">Generar Boleta</button>
+	<br><br>
+	<h2>Boleta de Pago</h2>
+	<table>
+		<tr>
+			<td><b>Monto a pagar:</b></td>
+			<td id="montoAPagar"></td>
+		</tr>
+		<tr>
+			<td><b>Descuento:</b></td>
+			<td id="descuentoAplicado"></td>
+		</tr>
+		<tr>
+			<td><b>Retención:</b></td>
+			<td id="retencionAplicada"></td>
+		</tr>
+		<tr>
+			 <td><b>Total a pagar:</b></td>
+			 <td id="totalAPagar"></td>
+		</tr>
+	</table>
+	<script src="app.js"></script>
+</body>
+</html>

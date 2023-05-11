@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diagnóstico de Enfermedades</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>Diagnóstico de Enfermedades</h1>
+	<form>
+		<fieldset>
+			<legend>Síntomas</legend>
+			<label><input type="checkbox" name="sintoma[]" value="fiebre">Fiebre</label>
+			<label><input type="checkbox" name="sintoma[]" value="tos">Tos</label>
+			<label><input type="checkbox" name="sintoma[]" value="dolor-muscular">Dolor Muscular</label>
+			<br>
+			<button type="button" onclick="diagnosticar()">Diagnosticar</button>
+		</fieldset>
+	</form>
+	<div id="resultado"></div>
+
+	<script src="diagnostico.js"></script>
+</body>
+</html>
